@@ -1,7 +1,7 @@
 {
-  "name": "gerador-qr-code-e-senha",
+  "name": "password-and-qr-code-generator",
   "version": "1.0.0",
-  "description": "Aplicação Node para gerar QR codes e senhas através do terminal.",
+  "description": "Node application to gerenate passwords and QR codes using node terminal.",
   "main": "index.js",
   "scripts": {
     "start:dev": "node src/index.js"
