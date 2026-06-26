@@ -9,7 +9,7 @@ function stopProgram() {
     rl.close();
 }
 
-function callGenerateQrCode() {
+async function callGenerateQrCode() {
     const qrType = parseInt(await rl.question("Selecione o tipo de QR Code\n1-Normal   2-Terminal Friendly\n"));
     const qrContent = await rl.question("Insira um link para gerar o QR Code: ");
     const qrCode = generateQrCode(qrType, qrContent);
